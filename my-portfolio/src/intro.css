@@ -1,0 +1,108 @@
+.intro{
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    height: 90vh;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+}
+.innerskills{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    color: #e74c3c;
+    font-size: 3rem;
+}
+.myintro{
+    width: 45%;
+    height: 100%;
+}
+.myintro h1{
+    font-size: 3.5rem;
+}
+.myname{
+    color: #e74c3c;
+}
+.myskills{
+    position: relative;
+    width: 55%;
+    height: 100%;
+}
+.call{
+    width: 100%;
+    display: flex;
+    align-self: center;
+    padding: 1rem;
+    font-size: 1rem;
+}
+@keyframes rotate{
+    to{ transform: rotate(360deg); }
+  }
+.skills{
+    width: 100%;
+    height: 100%;
+
+    /* background-color: white; */
+    border-radius: 100%;
+    animation: rotate 15s linear infinite;
+}
+.skills img{
+  
+    width: 10%;
+    border-radius: 100%;
+}
+.react{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    animation: rotate 15s linear infinite;
+}
+.flask{
+    position: absolute;
+    top: 30%;
+    left: 65%;
+    animation: rotate 15s linear infinite;
+}
+.php{
+    position: absolute;
+    top: 54%;
+    left: 70%;
+    animation: rotate 15s linear infinite;
+}
+.js{
+    position: absolute;
+    top: 70%;
+    left: 65%;
+    animation: rotate 15s linear infinite;
+}
+.python{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    animation: rotate 15s linear infinite;
+}
+.bootstrap{
+    position: absolute;
+    top: 70%;
+    left: 35%;
+    animation: rotate 15s linear infinite;
+}
+.css{
+    position: absolute;
+    top: 50%;
+    left: 28%;
+    animation: rotate 15s linear infinite;
+}
+.django{
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    animation: rotate 15s linear infinite;
+}
+.myintro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,40 @@
+.nav,.left,.right,ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.nav{
+    height: 10vh;
+}
+.left{
+    width: 30%;
+}
+.right{
+    width: 70%;
+}
+ul{
+    gap: 2rem;
+}
+ul li{
+    list-style-type: none;
+}
+ul li:hover{
+    color: var(--hover);
+}
+.cont-button{
+    padding: 1rem;
+    border-radius: 2rem;
+    font-weight: 600;
+    border: 2px solid var(--hover);
+    background-color: white;
+    box-shadow: 2px 2px 3px var(--hover);
+}
+.cont-button:hover{
+    color: white;
+    background-color: var(--hover);
+}
+ul{
+    font-size: large;
+    font-weight: 400;
+}
