@@ -6,15 +6,10 @@ import Cards from './component/cards/cards';
 import python from './images/pythondev.jfif'
 import frontend from './images/frontend.png'
 import backend from './images/backend.jfif'
-import { AnimatePresence, motion } from 'framer-motion'
+// import { AnimatePresence, motion } from 'framer-motion'
 // import { useState } from "react";
 
 export default function Service() {
-  // const [isInView, setIsInView] = useState(false);
-  const transition = {
-    duration: 1,
-    type: "spring",
-  };
 
   return (
     <div className='service' id='service'>

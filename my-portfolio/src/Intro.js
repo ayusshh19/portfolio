@@ -24,7 +24,7 @@ export default function Intro() {
           backSpeed={50}
           loop
         /></h1>
-        <button class="button-33" role="button" style={{ display: 'flex', alignSelf: 'center' }}><a href="tel:+919892250482"> Call Me <CallIcon /></a></button>
+        <button class="button-33"  style={{ display: 'flex', alignSelf: 'center' }}><a href="tel:+919892250482"> Call Me <CallIcon /></a></button>
 
       </div>
 

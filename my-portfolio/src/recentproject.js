@@ -5,9 +5,8 @@ import project2 from './images/project2.PNG'
 import project3 from './images/project3.PNG'
 import project4 from './images/project4.PNG'
 import project5 from './images/project5.PNG'
-import { EffectFade } from 'swiper';
 import SwiperCore, { Autoplay } from 'swiper';
-import { AnimatePresence, motion } from 'framer-motion'
+import { motion } from 'framer-motion'
 // Import Swiper styles
 import 'swiper/css';
 import Projectcards from './component/projectcards/Projectcards';

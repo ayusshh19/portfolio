@@ -1,8 +1,6 @@
 import React,{ useRef, useState } from 'react'
 import './contactme.css'
-import CallIcon from '@mui/icons-material/Badge';
 import emailjs from '@emailjs/browser';
-import SendIcon from '@mui/icons-material/Send';
 
 export default function Contactme() {
   const [name,setname]=useState('')
