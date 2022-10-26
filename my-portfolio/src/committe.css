@@ -1,0 +1,11 @@
+.committe{
+    height: 50%;
+    text-align: center;
+
+}
+.cardset{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+}

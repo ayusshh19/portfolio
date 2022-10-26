@@ -8,3 +8,13 @@
 body{
   overflow-x: hidden;
 }
+html{
+  margin: 0;
+  scroll-behavior: smooth;
+}
+.nav .blackbox {
+  background-color: black
+}
+.nav .lightbox {
+  background-color: white
+}

@@ -1,0 +1,57 @@
+.contactme{
+    display: flex;
+    height: 50%;
+    margin-bottom: 1rem;
+}
+.contleft{
+    width: 50%;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contright{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.contright form input[type=text]{
+    /* background-color: antiquewhite; */
+    width: 80%;
+    height: 2rem;
+    border-radius: 1rem;
+    margin: 2rem 0rem;
+    border: 3px solid red;
+    padding: 1rem;
+
+}
+.contright form input[type=text]::placeholder{
+    font-size: 1rem;
+    margin: auto;
+}
+@media (max-width:62em) {
+    .contleft{
+        width: 100%;
+    }
+    .contactme{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .contright{
+        width: 100%;
+    }
+    .contright form input[type=text]{
+        /* background-color: antiquewhite; */
+        width: 90%;
+    
+    }
+    .contright input[type='submit']{
+        margin: auto;
+        text-align: center;
+        transform: translateX(120%);
+    }
+}

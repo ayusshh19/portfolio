@@ -1,0 +1,46 @@
+.Commiteecards{
+    border-radius: 50px;
+background: white;
+box-shadow:  20px 20px 60px #d0d0d0,
+             -20px -20px 60px #f0f0f0;
+             display: flex;
+             width: 28%;
+             margin: 2rem;
+             flex-wrap: wrap;
+}
+.Commiteecards img{
+    width: 10rem;
+    height: 10rem;
+}
+.Commiteecards .right{
+    display: flex;
+    flex-direction: column;
+    
+}
+@media (max-width:62em) {
+    .Commiteecards{
+        width: 100%;
+        height: 12rem;
+        margin: 2rem 2rem;
+    }
+    .Commiteecards img{
+        width: 6rem;
+        height: 6rem;
+    }
+    .blackish .Commiteecards{
+        width: 100% !important;
+    }
+}
+.blackish .Commiteecards{
+    border-radius: 50px;
+    background: black;
+    box-shadow:  20px 20px 60px #e74c3c,
+                 -20px -20px 60px #e74c3c;
+                 display: flex;
+                 width: 28%;
+                 margin: 2rem;
+                 flex-wrap: wrap;
+}
+.blackish .Commiteecards h2{
+    color: #e74c3c;
+}

@@ -3,7 +3,7 @@
     /* justify-content: space-evenly; */
     align-items: center;
     height: 90vh;
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
     flex-wrap: wrap;
     -ms-flex-wrap: wrap;
 }
@@ -28,81 +28,131 @@
     position: relative;
     width: 55%;
     height: 100%;
+    margin-top: 5rem;
 }
-.call{
-    width: 100%;
-    display: flex;
-    align-self: center;
-    padding: 1rem;
-    font-size: 1rem;
-}
+
+#container {
+    --n:8;   /* number of item */
+  --d:12s; /* duration */
+    width: 400px;
+    height: 400px;
+    margin: 10px auto;
+    border: 1px solid #e74c3c; /* some kind of blue border */
+
+    /* other CSS styles */
+
+    /* round the corners */
+    -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+            border-radius: 5px;
+
+
+    /* make it glow! */
+    -webkit-box-shadow: 0px 0px 15px #e74c3c;
+       -moz-box-shadow: 0px 0px 15px #e74c3c;
+            box-shadow: 0px 0px 15px #e74c3c;
+    display:grid;
+    grid-template-columns:60px;
+    grid-template-rows:60px;
+    place-content: center;
+    border-radius: 50%;
+  }
+  .item {
+    grid-area:1/1;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 50%;
+    /* background: #f00; */
+    animation: spin 16s var(--d,0s) linear infinite; /* duration = 12s, numbor of item = 6 so a delay of 12/6 = 2s */
+    transform:rotate(0) translate(200px) rotate(0);
+  }
+  .item img{
+    width: 6rem;
+    height: 6rem;
+  }
+  @keyframes spin {
+    100% {
+      transform:rotate(1turn) translate(200px) rotate(-1turn);
+    }
+  }
+
 @keyframes rotate{
     to{ transform: rotate(360deg); }
   }
-.skills{
-    width: 100%;
-    height: 100%;
 
-    /* background-color: white; */
-    border-radius: 100%;
-    animation: rotate 15s linear infinite;
-}
-.skills img{
-  
-    width: 10%;
-    border-radius: 100%;
-}
-.react{
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    animation: rotate 15s linear infinite;
-}
-.flask{
-    position: absolute;
-    top: 30%;
-    left: 65%;
-    animation: rotate 15s linear infinite;
-}
-.php{
-    position: absolute;
-    top: 54%;
-    left: 70%;
-    animation: rotate 15s linear infinite;
-}
-.js{
-    position: absolute;
-    top: 70%;
-    left: 65%;
-    animation: rotate 15s linear infinite;
-}
-.python{
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    animation: rotate 15s linear infinite;
-}
-.bootstrap{
-    position: absolute;
-    top: 70%;
-    left: 35%;
-    animation: rotate 15s linear infinite;
-}
-.css{
-    position: absolute;
-    top: 50%;
-    left: 28%;
-    animation: rotate 15s linear infinite;
-}
-.django{
-    position: absolute;
-    top: 30%;
-    left: 35%;
-    animation: rotate 15s linear infinite;
-}
 .myintro{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+.button-33 {
+    background-color: #E27D60;
+    border-radius: 100px;
+    box-shadow: rgb(231,76,60,.2) 0 -25px 18px -14px inset,rgb(231,76,60) 0 1px 2px,rgb(231,76,60) 0 2px 4px,rgb(231,76,60) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgb(231,76,60) 0 16px 32px;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-33:hover {
+    box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+    transform: scale(1.05) rotate(-1deg);
+  }
+  @media (max-width:62em) {
+    .myintro{
+        width: 100%;
+    }
+    .myname{
+        margin-top: 0;
+        text-align: center;
+    }
+.intro{
+    height: 30rem;
+    margin-bottom: 25rem;
+}
+.myskills{
+    width: 100%;
+}
+.skills img{
+    width: 15%;
+}
+#container {
+    width: 100%;
+    height: 400px;
+    grid-template-columns:60px;
+    grid-template-rows:60px;
+  }
+  .item {
+    grid-area:1/1;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 50%;
+    /* background: #f00; */
+    animation: spin 16s var(--d,0s) linear infinite; /* duration = 12s, numbor of item = 6 so a delay of 12/6 = 2s */
+    transform:rotate(0) translate(150px) rotate(0);
+  }
+  .item img{
+    width: 6rem;
+    height: 6rem;
+  }
+  @keyframes spin {
+    100% {
+      transform:rotate(1turn) translate(180px) rotate(-1turn);
+    }
+  }
+
+@keyframes rotate{
+    to{ transform: rotate(360deg); }
+  }
+  }
