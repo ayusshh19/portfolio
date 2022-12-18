@@ -15,7 +15,7 @@ export default function Service() {
     <div className='service' id='service'>
       <div className='myservice'>
         <h1>My service</h1>
-        <h3>Hi I am professional Backend Developer with Good knowledge of Frontend</h3>
+        <h3>Hi I am professional Backend Developer with Good knowledge of Frontend,I am currently in Third year of Computer Engineering From <b>DATTA MEGHE COLLEGE OF ENGINEERING.I am very passionate developer and love to code for more you can checkout my resume 😉 </b></h3>
         <div className="contact-us">
           <button className='button-33' style={{ display: 'flex', alignSelf: 'center' }}><a href={resume}>Download CV {<DownloadIcon />} </a></button>
         </div>

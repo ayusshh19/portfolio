@@ -9,6 +9,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 .servicecards{
     width: 60%;
@@ -44,7 +45,7 @@
     .service{
         width: 100%;
         /* margin-top: 10rem; */
-        height: 85rem;
+        height: 90rem;
     }
     .myservice{
         width: 100%;

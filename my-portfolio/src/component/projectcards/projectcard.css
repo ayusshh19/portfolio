@@ -1,6 +1,41 @@
 .projectcards img{
     width: 100%;
-    height: 100%;
+    height: 50%;
     border-radius: 1rem;
+margin: auto;
+}
+.projectcards a{
+    height: 20rem;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+.projectcards .languages{
+    display: flex;
+    justify-content: center;
+}
+.projectcards .languages img{
+    width: 3rem;
+    height: 3rem;
+    margin:0 1rem 1rem 1rem;
+}
+.projectcards{
+    border-radius: 58px;
+background: white;
+box-shadow:  5px 5px 10px #d3d3d3,
+             -5px -5px 10px #ededed;
+}
 
+.blackish .projectcards{
+    background-color: black;
+    box-shadow:  5px 5px 12px #d94738,
+    -5px -5px 12px #f55140;
+    color: whitesmoke;
+}
+.blackish .projectcards a{
+    color: white;
+}
+.projectcards:hover{
+    scale: 0.9;
+    transition: all 0.5s ease-in;
 }

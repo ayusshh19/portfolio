@@ -19,9 +19,9 @@ export default function Intro() {
       <div className='myintro'>
         <h1>Hi! I am </h1>
         <h1 className='myname'><Typed
-          strings={['Ayush Shukla', 'Welcome to my portfolio', 'I am Full Stack Developer']}
+          strings={['Ayush Shukla 😎', 'Welcome to my portfolio', 'I am Full Stack Developer']}
           typeSpeed={40}
-          backSpeed={50}
+          backSpeed={30}
           loop
         /></h1>
         <button class="button-33"  style={{ display: 'flex', alignSelf: 'center' }}><a href="tel:+919892250482"> Call Me <CallIcon /></a></button>
